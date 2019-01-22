@@ -8,6 +8,8 @@ public class Faltoo {
         l1.insert(42);
         System.out.println(Arrays.toString(l1.list));
         l1.remove(0);
+        l1.isEmpty();
+        l1.isFull();
     }
 
     void insert(int value) {
@@ -43,4 +45,5 @@ public class Faltoo {
         }
     }
 }
+
 
